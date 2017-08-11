@@ -11,13 +11,10 @@ public final class FlowersSaver {
         try{
             FileWriter writer = new FileWriter(way);
 
-
             for(int i = 0; i < flowers.length; i++){
                 writer.write(flowers[i].toString() + " ");
                 writer.flush();
             }
-
-
 
         }catch (Exception e){
             e.printStackTrace();
