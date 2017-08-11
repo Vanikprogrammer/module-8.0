@@ -6,4 +6,5 @@ package saleFlowers;
 public abstract class Flowers  {
     public abstract void show();
     public abstract int getPrice();
+    public abstract String toString();
 }

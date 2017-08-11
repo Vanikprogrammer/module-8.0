@@ -5,10 +5,10 @@ package saleFlowers;
  */
 public class FlowerStore {
    private Flowers []bouquet;
-   private int purse = 0;
    private Rose ros = new Rose();
    private Chamomile chamomil = new Chamomile();
    private Tulip tul = new Tulip();
+   private int purse = 0;
 
     public Flowers[] sell(int rose, int charmomile, int tulip){
         purse += (rose * ros.getPrice()) + (charmomile * chamomil.getPrice()) + (tulip * tul.getPrice());

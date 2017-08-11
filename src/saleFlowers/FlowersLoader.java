@@ -7,6 +7,7 @@ import java.io.FileReader;
  * Created by 1 on 10.08.2017.
  */
 public final class FlowersLoader {
+
    private static FlowerStore store = new FlowerStore();
 
     public static Flowers[]load(String way){
